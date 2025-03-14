@@ -1,0 +1,56 @@
+<h2>Register</h2>
+<form onsubmit="event.preventDefault(); registerUser();">
+    <label for="register-username">Username:</label>
+    <input type="text" id="register-username" required>
+    <label for="register-password">Password:</label>
+    <input type="password" id="register-password" required>
+    <button type="submit">Register</button>
+</form>
+
+<h2>Login</h2>
+<form onsubmit="event.preventDefault(); loginUser();">
+    <label for="login-username">Username:</label>
+    <input type="text" id="login-username" required>
+    <label for="login-password">Password:</label>
+    <input type="password" id="login-password" required>
+    <button type="submit">Login</button>
+</form>
+
+<script>
+    async function registerUser() {
+        const username = document.getElementById('register-username').value;
+        const password = document.getElementById('register-password').value;
+        
+        const response = await fetch('/register', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ username, password })
+        });
+        
+        if (response.ok) {
+            alert("User registered successfully!");
+        } else {
+            alert("Error registering user");
+        }
+    }
+
+    async function loginUser() {
+        const username = document.getElementById('login-username').value;
+        const password = document.getElementById('login-password').value;
+        
+        const response = await fetch('/login', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ username, password })
+        });
+
+        if (response.ok) {
+            const data = await response.json();
+            localStorage.setItem('token', data.token);  // Guardar el token si usamos JWT
+            alert("Login successful!");
+            window.location.reload();  // Recargar la página para acceder a propiedades
+        } else {
+            alert("Invalid credentials");
+        }
+    }
+</script>

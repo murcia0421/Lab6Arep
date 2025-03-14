@@ -1,0 +1,10 @@
+com\example\accessingdatajpa\model\User.class
+com\example\accessingdatajpa\config\SecurityConfig.class
+com\example\accessingdatajpa\service\UserService.class
+com\example\accessingdatajpa\repository\PropertyRepository.class
+com\example\accessingdatajpa\controller\PropertyController.class
+com\example\accessingdatajpa\repository\UserRepository.class
+com\example\accessingdatajpa\model\Property.class
+com\example\accessingdatajpa\AccessingDataJpaApplication.class
+com\example\accessingdatajpa\config\WebConfig.class
+com\example\accessingdatajpa\controller\AuthController.class

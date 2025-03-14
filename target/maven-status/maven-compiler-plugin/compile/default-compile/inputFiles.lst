@@ -1,0 +1,10 @@
+D:\Estudio\Universidad\arep\lab06-Arep\src\main\java\com\example\accessingdatajpa\controller\AuthController.java
+D:\Estudio\Universidad\arep\lab06-Arep\src\main\java\com\example\accessingdatajpa\model\User.java
+D:\Estudio\Universidad\arep\lab06-Arep\src\main\java\com\example\accessingdatajpa\repository\UserRepository.java
+D:\Estudio\Universidad\arep\lab06-Arep\src\main\java\com\example\accessingdatajpa\service\UserService.java
+D:\Estudio\Universidad\arep\lab06-Arep\src\main\java\com\example\accessingdatajpa\model\Property.java
+D:\Estudio\Universidad\arep\lab06-Arep\src\main\java\com\example\accessingdatajpa\repository\PropertyRepository.java
+D:\Estudio\Universidad\arep\lab06-Arep\src\main\java\com\example\accessingdatajpa\controller\PropertyController.java
+D:\Estudio\Universidad\arep\lab06-Arep\src\main\java\com\example\accessingdatajpa\config\SecurityConfig.java
+D:\Estudio\Universidad\arep\lab06-Arep\src\main\java\com\example\accessingdatajpa\config\WebConfig.java
+D:\Estudio\Universidad\arep\lab06-Arep\src\main\java\com\example\accessingdatajpa\AccessingDataJpaApplication.java

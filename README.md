@@ -86,7 +86,8 @@ Server running on port 8080...
 
 The project follows a **microservices**-based architecture and is designed to be deployed on **AWS EC2** using **Docker**. The structure and main components are described below:
 
-![Architecture](https://github.com/user-attachments/assets/0c8e76a6-e9c3-4f57-87df-7afb2a6f50e6)
+![image](https://github.com/user-attachments/assets/599b34c1-ad31-4d4c-b98b-1bb840626db4)
+
 
 ### Architecture Components
 
